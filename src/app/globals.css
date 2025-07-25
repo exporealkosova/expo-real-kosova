@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@font-face {
+  font-family: "Hoves";
+  src: url("../../public/assets/fonts/TTHoves-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SupermolotBold";
+  src: url("../../public/assets/fonts/TTSupermolotNeue-ExpBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SupermolotThin";
+  src: url("../../public/assets/fonts/TTSupermolotNeue-ExpRegular.ttf") format("truetype");
+}
+body {
+  @apply font-sans;
+}
