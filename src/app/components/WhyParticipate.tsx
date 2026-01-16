@@ -4,19 +4,19 @@ import React from "react";
 const reasons = [
   {
     text: "Lidhje direkte me mijëra klientë dhe investitorë potencialë",
-    image: "/assets/images/psemerrpjese/1.png",
+    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594698/image_nabzuy.png",
   },
   {
     text: "Shtrirje mediatike në të gjithë Kosovën dhe diasporën",
-    image: "/assets/images/psemerrpjese/2.png",
+    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594702/Rectangle_193_sw3fc4.png",
   },
   {
     text: "Platformë për të promovuar produktet, projektet dhe teknologjitë më të fundit",
-    image: "/assets/images/psemerrpjese/3.png",
+    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594702/Rectangle_194_peswxs.png",
   },
   {
     text: "Rrjetëzim me profesionistë të industrisë dhe institucione financiare",
-    image: "/assets/images/psemerrpjese/4.png",
+    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594700/Rectangle_195_zbzhen.png",
   },
 ];
 

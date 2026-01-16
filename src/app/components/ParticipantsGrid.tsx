@@ -10,27 +10,33 @@ import { EffectCards } from "swiper/modules";
 const participants = [
   {
     title: "BANKA DHE INSTITUCIONE FINANCIARE QË OFROJNË KREDI BANESASH",
-    image: "/assets/images/kushmerrpjese/1.png",
+    image:
+      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594405/Rectangle_229_rw1d1y.png",
   },
   {
     title: "STUDIO ARKITEKTURORE DHE DIZAJNI",
-    image: "/assets/images/kushmerrpjese/2.jpg",
+    image:
+      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594406/Rectangle_211_nstz2b.png",
   },
   {
     title: "KOMPANI NDËRTIMORE DHE ZHVILLUESE",
-    image: "/assets/images/kushmerrpjese/3.jpg",
+    image:
+      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594406/Rectangle_211_1_uf3d4i.png",
   },
   {
     title: "AGJENCI TË PATUNDSHMËRIVE",
-    image: "/assets/images/kushmerrpjese/4.jpg",
+    image:
+      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594407/Rectangle_211_2_rgbovz.png",
   },
   {
     title: "PRODHUES DHE DISTRIBUTORË TË MATERIALEVE NDËRTIMORE",
-    image: "/assets/images/kushmerrpjese/5.jpg",
+    image:
+      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594405/Rectangle_229_1_kxysdg.png",
   },
   {
     title: "FURNIZUES TË MOBILEVE, PAJISJEVE TË BRENDSHME DHE TEKNOLOGJISË",
-    image: "/assets/images/kushmerrpjese/6.jpg",
+    image:
+      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594405/Rectangle_229_2_pcgoju.png",
   },
 ];
 
@@ -50,7 +56,7 @@ const ParticipantsGrid = () => {
             <Image
               src={item.image}
               alt={item.title}
-              className="w-full h-[285px] lg:h-[205px] object-cover transform group-hover:scale-105 transition-transform duration-300"
+              className="w-full h-[285px] lg:h-[205px] object-cover transform group-hover:scale-105  transition-transform duration-300"
               width={1000}
               height={1000}
             />
@@ -61,7 +67,7 @@ const ParticipantsGrid = () => {
                   "linear-gradient(to top, rgba(0,54,45,1) 100%, rgba(0,54,45,0.44) 0%)",
               }}
             ></div>
-            <div className="absolute inset-0 bg-black/40 flex items-end p-4">
+            <div className="absolute inset-0  flex items-end p-4">
               <p className="text-[#F4EDE2] text-[18px] lg:text-[16px] font-medium font-['SupermolotThin']">
                 {item.title}
               </p>
@@ -88,7 +94,7 @@ const ParticipantsGrid = () => {
               width={1000}
               height={1000}
             />
-             <div
+            <div
               className="absolute inset-0 opacity-45"
               style={{
                 background:

@@ -44,7 +44,7 @@ export default function SplitImageReveal() {
                   duration: 0.8,
                   ease: "power2.out",
                   delay: 0.2,
-                }
+                },
               );
             },
             onLeaveBack: () => {
@@ -75,7 +75,7 @@ export default function SplitImageReveal() {
         <Image
           ref={leftRef}
           className="w-1/2 h-[639px] md:w-0 md:h-0"
-          src="/assets/prmallleft.png"
+          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768595872/Frame_58_bbytyf.png"
           width={1000}
           height={1000}
           alt=""
@@ -83,7 +83,7 @@ export default function SplitImageReveal() {
         <Image
           ref={rightRef}
           className="w-1/2 h-[639px] md:w-0 md:h-0 md:hidden"
-          src="/assets/prmallright.png"
+          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768595876/Frame_59_dndwpg.png"
           width={1000}
           height={1000}
           alt=""

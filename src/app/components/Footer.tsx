@@ -1,22 +1,25 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
+import { AiFillTikTok } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#01372e] text-[#f8f3ed] py-16 mt-36 md:mt- pl-[143px] lg:pl-[100px] md:pl-5 relative overflow-hidden">
+    <footer className="bg-[#5556ff] text-[#f8f3ed] py-16 mt-36 md:mt- pl-[143px] lg:pl-[100px] md:pl-5 relative overflow-hidden">
       <div className=" mx-auto flex flex-col  justify-between items-start gap-12 z-10 relative">
         {/* Left Side */}
         <div className="max-w-[500px] lg:max-w-none">
-          <h2 className="text-[40px] lg:text-[35px] md:text-[25px] font-semibold mb-4 leading-tight">
+          <h2 className="text-[40px] lg:text-[35px] md:text-[25px] font-semibold mb-10 leading-tight">
             Rezervo shtandin tënd
           </h2>
           <Link
             to="contact"
             smooth={true}
             duration={500}
-            className="bg-[#f8f3ed] text-[#01372e] px-5 py-2 rounded-md font-thin text-[16px] cursor-pointer"
+            className="bg-[#f8f3ed] text-[#01372e] px-[55px] py-[18px] rounded-xl font-thin text-[16px] cursor-pointer"
           >
             Rezervo shtandin
           </Link>
@@ -65,14 +68,25 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
+        <div className="flex gap-[21px]">
+          <a href="">
+            <RiInstagramFill size={26} color="white" />
+          </a>
+          <a href="">
+            <FaFacebook size={26} color="white" />
+          </a>
+          <a href="">
+            <AiFillTikTok size={26} color="white" />
+          </a>
+        </div>
       </div>
 
       {/* Background Icon Overlay */}
-      <div className="absolute -right-20 lg:-right-80 top-0 bottom-0 z-0 block">
+      <div className="absolute right-20 lg:-right-80 top-0 bottom-0 z-0 block">
         <Image
-          src="/assets/footerLogo.svg" // Replace with your path
+          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768595383/Frame_5170_akigcm.png" // Replace with your path
           alt="Background Icon"
-          className="h-full"
+          className="h-full aspect-square w-full"
           width={1000}
           height={1000}
         />

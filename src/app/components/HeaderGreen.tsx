@@ -54,7 +54,7 @@ const HeaderGreen = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="relative top-0 md:top-0 z-50 w-full bg-[#00362D] px-[110px] md:px-5 py-[35px]">
+    <header className="relative top-0 md:top-0 z-50 w-full bg-[#5556ff] px-[110px] md:px-5 py-[35px]">
       <div className="flex justify-between items-center py-[10px] px-[66px] mx-auto lg:px-[38px] md:px-5">
         <Image
           src="/assets/logo.svg"
@@ -79,7 +79,7 @@ const HeaderGreen = () => {
             smooth={true}
             duration={500}
             offset={-100}
-            className={`w-fit rounded-[10px] leading-none bg-[#F4EDE2] font-["Hoves"] text-[#00362D] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 hover:bg-[#12423a] transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
+            className={`w-fit rounded-[10px] leading-none bg-[#F4EDE2] font-["Hoves"] text-[#5556ff] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 hover:bg-[#12423a] transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
           >
             Ballina
           </ScrollLink>
@@ -101,7 +101,7 @@ const HeaderGreen = () => {
       {/* Mobile navigation overlay */}
       <div
         ref={mobileMenuRef}
-        className={`fixed top-0 left-0 w-screen h-screen bg-[#00362D] flex flex-col items-center justify-center gap-10 text-[#F4EDE2] z-40 md:flex ${
+        className={`fixed top-0 left-0 w-screen h-screen bg-[#5556ff] flex flex-col items-center justify-center gap-10 text-[#F4EDE2] z-40 md:flex ${
           isOpen ? "pointer-events-auto" : "pointer-events-none"
         }`}
         style={{ opacity: isOpen ? 1 : 0 }}

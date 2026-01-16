@@ -185,7 +185,7 @@ const Kontakti = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-[#033a33] text-white py-3 rounded-xl text-base font-medium hover:bg-[#055045] transition"
+              className="w-full bg-[#5556ff] text-white py-3 rounded-xl text-base font-medium hover:bg-[#5556ff] transition"
             >
               Dergo
             </button>
@@ -228,7 +228,7 @@ const Kontakti = () => {
           <Image
             width={1000}
             height={1000}
-            src="/assets/images/contactform/1.png"
+            src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594706/Rectangle_226_bqfrfv.png"
             alt="Building"
             className="w-full h-[805px] lg:h-[600px] object-cover rounded-[40px]"
           />

@@ -22,7 +22,7 @@ const About = () => {
         gsap.fromTo(
           contentRef.current,
           { height: 0, opacity: 0 },
-          { height: "auto", opacity: 1, duration: 0.5, ease: "power2.out" }
+          { height: "auto", opacity: 1, duration: 0.5, ease: "power2.out" },
         );
       } else {
         gsap.to(contentRef.current, {
@@ -39,7 +39,7 @@ const About = () => {
     <section className="bg-[#F4EDE2] py-20 md:px-[20px]">
       <div className="mx-auto text-left md:text-left px-[12%] md:px-0">
         <h2 className="text-[54px] lg:text-[40px] md:text-[25px] font-['Hoves'] font-semibold text-[#221F1F] mb-6 text-center">
-          Rreth Panarit
+          Rreth Panairit
         </h2>
 
         <p className="text-[20px] lg:text-[16px] font-semibold text-[#221F1F] mb-4 font-['SupermolotThin']">
@@ -80,7 +80,7 @@ const About = () => {
               Synimi ynë është të krijojmë një urë lidhëse midis tregut dhe
               inovacionit – ku ekspozuesit prezantojnë zgjidhjet më të fundit
               dhe vizitorët gjejnë mundësi konkrete për investim, bashkëpunim
-              apo blerje. Me një hapësirë prej 2,800 m², struktura moderne e
+              apo blerje. Me një hapësirë prej 2,400 m², struktura moderne e
               panairit dhe programi i pasur promovues garantojnë një përvojë
               cilësore dhe me ndikim.
             </p>
@@ -102,7 +102,7 @@ const About = () => {
               Synimi ynë është të krijojmë një urë lidhëse midis tregut dhe
               inovacionit – ku ekspozuesit prezantojnë zgjidhjet më të fundit
               dhe vizitorët gjejnë mundësi konkrete për investim, bashkëpunim
-              apo blerje. Me një hapësirë prej 2,800 m², struktura moderne e
+              apo blerje. Me një hapësirë prej 2,400 m², struktura moderne e
               panairit dhe programi i pasur promovues garantojnë një përvojë
               cilësore dhe me ndikim.
             </p>
@@ -113,7 +113,7 @@ const About = () => {
         {isMobile && (
           <button
             onClick={() => setShowFull((prev) => !prev)}
-            className="mt-4 text-[#00362D] text-[14px] font-light underline text-center w-full font-['Hoves']"
+            className="mt-4 text-[#5556ff] text-[14px] font-light underline text-center w-full font-['Hoves']"
           >
             {showFull ? "Lexo më pak" : "Lexo më shumë"}
           </button>
@@ -124,12 +124,10 @@ const About = () => {
         <div
           className="rounded-[16px] w-full h-[300px] md:h-[169px] bg-cover bg-center flex items-center justify-center text-2xl md:text-4xl font-light"
           style={{
-            backgroundImage: "url('/assets/images/about/1.png')",
+            backgroundImage: "url('https://res.cloudinary.com/dwinvxbiw/image/upload/v1768590208/Frame_47_conbww.png')",
           }}
         >
-          <span className="text-center text-[54px] md:text-[20px] text-[#F4EDE2] font-thin font-['Hoves']">
-            Investo, ndërto, mobilo!
-          </span>
+          
         </div>
       </div>
     </section>

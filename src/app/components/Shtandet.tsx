@@ -13,22 +13,6 @@ const stands = [
     ],
     image: "/assets/images/shtandet/1.png",
   },
-  {
-    title: "Shtand medium",
-    description: [
-      "Format i shtandit sipas hapësirës",
-      "Dizajnim i komplet hapësirë",
-    ],
-    image: "/assets/images/shtandet/2.png",
-  },
-  {
-    title: "Shtand premium",
-    description: [
-      "Format i shtandit sipas hapësirës",
-      "Dizajnim i komplet hapësirë",
-    ],
-    image: "/assets/images/shtandet/3.png",
-  },
 ];
 
 const Shtandet = () => {
@@ -73,6 +57,22 @@ const Shtandet = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex flex-row justify-between relative gap-[46px]">
+        <Image
+          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594700/Rectangle_730_sazhca.png"
+          alt="BTP-Holding"
+          width={564}
+          height={393}
+          className="top-0 left-0 max-w-[564px] h-fit"
+        />
+        <Image
+          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594696/Rectangle_729_eopah1.png"
+          alt="AS-Tech"
+          width={564}
+          height={393}
+          className="bottom-0 right-0 w-full "
+        />
       </div>
     </section>
   );

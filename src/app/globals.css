@@ -24,3 +24,13 @@
 body {
   @apply font-sans;
 }
+/* Gives the “stacked behind” area and softens the non-active cards */
+.cardsStackSwiper {
+  padding: 0 72px;              /* makes room so you can see the side cards */
+}
+
+.cardsStackSwiper .swiper-slide {
+  border-radius: 16px;
+  overflow: hidden;
+}
+

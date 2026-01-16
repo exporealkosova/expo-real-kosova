@@ -5,6 +5,10 @@ import { Link as ScrollLink } from "react-scroll";
 import gsap from "gsap";
 import x from "../../../public/assets/svg/x.svg";
 import borgir from "../../../public/assets/svg/borgir.svg";
+import { Instagram } from "lucide-react";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaFacebook } from "react-icons/fa";
+import { AiFillTikTok } from "react-icons/ai";
 type LinkProps = {
   to: string;
   text: string;
@@ -38,7 +42,7 @@ const Header = () => {
         gsap.fromTo(
           mobileMenuRef.current,
           { y: "-100%", opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }
+          { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" },
         );
       } else {
         gsap.to(mobileMenuRef.current, {
@@ -57,7 +61,7 @@ const Header = () => {
     <header className="absolute top-5 md:top-0 z-50 w-full">
       <div className="flex justify-between items-center py-[10px] px-[66px] mx-auto lg:px-[38px] md:px-5">
         <Image
-          src="/assets/logo.svg"
+          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768590878/Frame_5179_y8cymb.svg"
           alt="Header Logo"
           className="w-fit min-w-[130px] min-h-[80px] h-full md:min-w-[40px] md:w-[80px]"
           width={1000}
@@ -68,18 +72,28 @@ const Header = () => {
         <div className="md:hidden flex gap-12 md:gap-8 items-center">
           <Link to="about" text="Rreth Nesh" />
           <Link to="expozuesit" text="Ekspozuesit" />
-          {/* <Link to="programi" text="Expo Programi" /> */}
+          <Link to="galeria" text="Galeria" />
           <Link to="plan" text="Plani i Sallës" />
           <Link to="location" text="Lokacioni" />
         </div>
-
+        <div className="flex gap-[21px] md:hidden">
+          <a href="">
+            <RiInstagramFill size={26} color="white" />
+          </a>
+          <a href="">
+            <FaFacebook size={26} color="white" />
+          </a>
+          <a href="">
+            <AiFillTikTok size={26} color="white" />
+          </a>
+        </div>
         <div className="md:hidden flex">
           <ScrollLink
             to="contact"
             smooth={true}
             duration={500}
             offset={-100}
-            className={`w-fit rounded-[10px] leading-none bg-[#00362D] font-["Hoves"] text-[#F4EDE2] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 hover:bg-[#12423a] transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
+            className={`w-fit rounded-[10px] leading-none bg-[#5556ff] font-["Hoves"] text-[#F4EDE2] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 hover:bg-[#12423a] transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
           >
             Rezervo shtandin
           </ScrollLink>
@@ -101,16 +115,27 @@ const Header = () => {
       {/* Mobile navigation overlay */}
       <div
         ref={mobileMenuRef}
-        className={`fixed top-0 left-0 w-screen h-screen bg-[#00362D] flex flex-col items-center justify-center gap-10 text-[#F4EDE2] z-40 md:flex ${
+        className={`fixed top-0 left-0 w-screen h-screen bg-[#5556ff] flex flex-col items-center justify-center gap-10 text-[#F4EDE2] z-40 md:flex ${
           isOpen ? "pointer-events-auto" : "pointer-events-none"
         }`}
         style={{ opacity: isOpen ? 1 : 0 }}
       >
         <Link to="about" text="Rreth Nesh" onClick={closeMenu} />
         <Link to="expozuesit" text="Ekspozuesit" onClick={closeMenu} />
-        {/* <Link to="programi" text="Expo Programi" onClick={closeMenu} /> */}
+        <Link to="galeria" text="Galeria" onClick={closeMenu} />
         <Link to="plan" text="Plani i Sallës" onClick={closeMenu} />
         <Link to="location" text="Lokacioni" onClick={closeMenu} />
+        <div className="flex gap-[21px]">
+          <a href="">
+            <RiInstagramFill size={26} color="white" />
+          </a>
+          <a href="">
+            <FaFacebook size={26} color="white" />
+          </a>
+          <a href="">
+            <AiFillTikTok size={26} color="white" />
+          </a>
+        </div>
         <Image
           onClick={closeMenu}
           alt="closeMenuButton"

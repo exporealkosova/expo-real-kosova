@@ -15,6 +15,8 @@ import ParticipantsGrid from "./components/ParticipantsGrid";
 import Shtandet from "./components/Shtandet";
 import SplitImageReveal from "./components/SplitImageReveal";
 import WhyParticipate from "./components/WhyParticipate";
+import Suksesi from "./components/Suksesi";
+import Expo2025 from "./components/Expo2025";
 
 export default function Home() {
   return (
@@ -26,7 +28,10 @@ export default function Home() {
         <Element name="about">
           <About />
         </Element>
-        <Element name="expozuesit">
+        <Element name="success">
+          <Suksesi />
+        </Element>
+        <Element name="galeria">
           <Expozuesit />
         </Element>
         <Element name="who">
@@ -47,7 +52,7 @@ export default function Home() {
           <a
             href="https://maps.app.goo.gl/AsU5p9vbkyYioEyTA"
             target="_blank"
-            className="rounded-[10px] bg-[#00362D] px-[55px] py-[18px] md:py-3  md:px-[65px] text-[16px]  font-normal font-['Hoves'] text-[#F4EDE2] hover:bg-[#12423a] transition-all duration-500"
+            className="rounded-[10px] bg-[#5556ff] px-[55px] py-[18px] md:py-3  md:px-[65px] text-[16px]  font-normal font-['Hoves'] text-[#F4EDE2] hover:bg-[#12423a] transition-all duration-500"
           >
             Merr Udhëzimet
           </a>
@@ -63,6 +68,9 @@ export default function Home() {
         </div>
         <Element name="contact">
           <Kontakti />
+        </Element>
+        <Element name="expozuesit">
+          <Expo2025 />
         </Element>
         <Footer />
       </div>
