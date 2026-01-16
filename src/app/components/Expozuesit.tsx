@@ -72,7 +72,7 @@ const Expozuesit = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const prevRef = useRef<HTMLDivElement | null>(null);
   const nextRef = useRef<HTMLDivElement | null>(null);
-  const swiperRef = useRef<any>(null);
+  const swiperRef = useRef<unknown>(null);
 
   return (
     <section className="bg-[#F4EDE2] py-12 px-6 lg:px-4 md:px-5 ">
