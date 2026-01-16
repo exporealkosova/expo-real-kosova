@@ -1,5 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
+import type { Swiper as SwiperInstance } from "swiper"; // 👈 add this
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -72,22 +73,24 @@ const Expozuesit = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const prevRef = useRef<HTMLDivElement | null>(null);
   const nextRef = useRef<HTMLDivElement | null>(null);
-  const swiperRef = useRef<unknown>(null);
+
+  // ✅ Properly typed Swiper ref
+  const swiperRef = useRef<SwiperInstance | null>(null);
 
   return (
     <section className="bg-[#F4EDE2] py-12 px-6 lg:px-4 md:px-5 ">
-      <div className="px-[50px]  lg:px-0  flex flex-col gap-[20px] md:gap-20 items-center">
-        <div className="flex items-center justify-between mb-4  ">
+      <div className="px-[50px] lg:px-0 flex flex-col gap-[20px] md:gap-20 items-center">
+        <div className="flex items-center justify-between mb-4">
           <h2 className="text-[54px] md:text-[25px] font-['Hoves'] font-semibold lg:pl-5 md:pl-0">
             EXPO REAL KOSOVA 2025
           </h2>
         </div>
 
-        <div className="relative w-4/5 mx-auto px-[80px] mb-[20px] md:px-10" >
+        <div className="relative w-4/5 mx-auto px-[80px] mb-[20px] md:px-10">
           <Swiper
             className="cardsStackSwiper"
             centeredSlides
-            effect={"cards"}
+            effect="cards"
             slidesPerView={1}
             loop
             grabCursor
@@ -98,11 +101,11 @@ const Expozuesit = () => {
             cardsEffect={{
               rotate: false,
               perSlideRotate: 0,
-              perSlideOffset: 18, // controls how much you see the stacked cards
-              slideShadows: false, // cleaner like your screenshot
+              perSlideOffset: 18,
+              slideShadows: false,
             }}
             onSwiper={(swiper) => {
-              swiperRef.current = swiper;
+              swiperRef.current = swiper; // ✅ typed correctly now
 
               if (
                 swiper.params.navigation &&
@@ -134,11 +137,12 @@ const Expozuesit = () => {
             ))}
           </Swiper>
         </div>
+
         <div className="flex items-center gap-4 text-sm text-gray-600 h-full">
           <div className="flex gap-14 items-center">
             <div
               ref={prevRef}
-              className="flex w-3 h-3  justify-center items-center rounded-full  cursor-pointer"
+              className="flex w-3 h-3 justify-center items-center rounded-full cursor-pointer"
             >
               <Image
                 src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768593283/icon_kf1a5d.png"
@@ -147,16 +151,18 @@ const Expozuesit = () => {
                 height={24}
               />
             </div>
+
             <PaginationDynamic
               activeIndex={activeIndex}
               total={items.length}
               visible={5}
               loop={true}
-              onDotClick={(i) => swiperRef.current?.slideToLoop(i)}
+              onDotClick={(i) => swiperRef.current?.slideToLoop(i)} // ✅ now valid
             />
+
             <div
               ref={nextRef}
-              className="flex w-3 h-2 justify-center items-center rounded-full  cursor-pointer"
+              className="flex w-3 h-2 justify-center items-center rounded-full cursor-pointer"
             >
               <Image
                 src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768593298/icon_1_ojtrfm.png"
