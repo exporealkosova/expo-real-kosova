@@ -4,7 +4,7 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import { EffectCards, Navigation } from "swiper/modules";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 const Expozuesit = () => {
   const items = [

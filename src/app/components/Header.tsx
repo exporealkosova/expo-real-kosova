@@ -5,7 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 import gsap from "gsap";
 import x from "../../../public/assets/svg/x.svg";
 import borgir from "../../../public/assets/svg/borgir.svg";
-import { Instagram } from "lucide-react";
+
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
@@ -93,7 +93,7 @@ const Header = () => {
             smooth={true}
             duration={500}
             offset={-100}
-            className={`w-fit rounded-[10px] leading-none bg-[#5556ff] font-["Hoves"] text-[#F4EDE2] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 hover:bg-[#12423a] transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
+            className={`w-fit rounded-[10px] leading-none bg-[#5556ff] font-["Hoves"] text-[#F4EDE2] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
           >
             Rezervo shtandin
           </ScrollLink>
