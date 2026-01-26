@@ -69,10 +69,10 @@ const Footer = () => {
           </li>
         </ul>
         <div className="flex gap-[21px]">
-          <a href="">
+          <a href="https://www.instagram.com/exporealkosova/">
             <RiInstagramFill size={26} color="white" />
           </a>
-          <a href="">
+          <a href="https://www.facebook.com/profile.php?id=61576219461346">
             <FaFacebook size={26} color="white" />
           </a>
           <a href="">

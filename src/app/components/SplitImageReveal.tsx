@@ -100,7 +100,7 @@ export default function SplitImageReveal() {
             Pse Prishtina Mall?
           </h2>
           <p className="text-[24px] lg:text-[20px] md:text-[14px] font-['Hoves'] text-[#221F1F] mb-6">
-            Expo Real Kosova 2025 do të mbahet nga 25 deri më 27 Korrik 2025 në
+            Expo Real Kosova 2026 do te mbahet me 24 -25 26 Korrik 2026 në
             një nga vendet më të mëdha dhe moderne në vend - në Prishtina Mall,
             me një salle qe ka sipërfaqe prej 2800 m².
             <br />

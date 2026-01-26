@@ -77,10 +77,10 @@ const Header = () => {
           <Link to="location" text="Lokacioni" />
         </div>
         <div className="flex gap-[21px] md:hidden">
-          <a href="">
+          <a href="https://www.instagram.com/exporealkosova/">
             <RiInstagramFill size={26} color="white" />
           </a>
-          <a href="">
+          <a href="https://www.facebook.com/profile.php?id=61576219461346">
             <FaFacebook size={26} color="white" />
           </a>
           <a href="">
@@ -126,10 +126,10 @@ const Header = () => {
         <Link to="plan" text="Plani i Sallës" onClick={closeMenu} />
         <Link to="location" text="Lokacioni" onClick={closeMenu} />
         <div className="flex gap-[21px]">
-          <a href="">
+          <a href="https://www.instagram.com/exporealkosova/">
             <RiInstagramFill size={26} color="white" />
           </a>
-          <a href="">
+          <a href="https://www.facebook.com/profile.php?id=61576219461346">
             <FaFacebook size={26} color="white" />
           </a>
           <a href="">

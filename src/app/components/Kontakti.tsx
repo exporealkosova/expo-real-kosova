@@ -40,7 +40,7 @@ const Kontakti = () => {
   };
 
   const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
     setErrors({ ...errors, [e.target.name]: undefined });
@@ -202,22 +202,22 @@ const Kontakti = () => {
                 Email •{" "}
                 <a
                   className=" font-semibold"
-                  href="mailto:info@pr-solutions.com"
+                  href="mailto:info@modus-events.com"
                 >
-                  info@pr-solutions.com
+                  info@modus-events.com
                 </a>{" "}
                 ose{" "}
                 <a
                   className=" font-semibold"
-                  href="mailto:info@modus-events.com"
+                  href="mailto:info@pr-solutions.com"
                 >
-                  info@modus-events.com
+                  info@pr-solutions.com
                 </a>
               </div>
               <div className="flex flex-row gap-2">
                 Tel •{" "}
-                <a className=" font-semibold" href="">
-                  +383 45 666 220
+                <a className=" font-semibold" href="tel:+38346557766">
+                  +383 46 55 77 66
                 </a>
               </div>
             </div>

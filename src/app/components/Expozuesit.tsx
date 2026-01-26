@@ -31,50 +31,37 @@ const Expozuesit = () => {
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591931/Slide_Item_1_cqkuf1.png",
+        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769371564/IMG_4376_c2k9p6.jpg",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591938/Slide_Image_pejnmw.png",
+        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468009/MRP_3377_1_mqcczm.png",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591939/Slide_Item_3_kj3lmd.png",
+        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468008/MRP_3615_1_shrtqk.jpg",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591939/Slide_Image_1_eobpji.png",
+        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468008/MRP_3720_1_bgesjq.jpg",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591932/Slide_Item_5_stmnhj.png",
+        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769371682/MRP_4807_ccc8f3.jpg",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591931/Slide_Item_1_cqkuf1.png",
+        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769371679/MRP_4938_k34qlw.jpg",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591938/Slide_Image_pejnmw.png",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591939/Slide_Item_3_kj3lmd.png",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591939/Slide_Image_1_eobpji.png",
-    },
-    {
-      image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591932/Slide_Item_5_stmnhj.png",
+        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468009/MRP_5185_1_cznxca.jpg",
     },
   ];
   const [activeIndex, setActiveIndex] = useState(0);
   const prevRef = useRef<HTMLDivElement | null>(null);
   const nextRef = useRef<HTMLDivElement | null>(null);
 
-  // ✅ Properly typed Swiper ref
   const swiperRef = useRef<SwiperInstance | null>(null);
 
   return (
