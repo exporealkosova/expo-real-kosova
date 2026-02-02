@@ -19,6 +19,17 @@ import Suksesi from "./components/Suksesi";
 import Expo2025 from "./components/Expo2025";
 
 export default function Home() {
+   useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash) {
+      setTimeout(() => {
+        scroller.scrollTo(hash, {
+          smooth: true,
+          duration: 500,
+        });
+      }, 300);
+    }
+  }, []);
   return (
     <>
       {/* <ComingSoon /> */}
@@ -77,3 +88,4 @@ export default function Home() {
     </>
   );
 }
+
