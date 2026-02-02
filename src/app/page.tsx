@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { Element } from "react-scroll";
+import { Element, scroller } from "react-scroll";
 // import ComingSoon from "./components/ComingSoon";
 // import ExpoAccordion from "./components/ExpoAccordion";
 import About from "./components/About";
@@ -88,5 +88,6 @@ export default function Home() {
     </>
   );
 }
+
 
 
