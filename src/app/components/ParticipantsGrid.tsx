@@ -11,32 +11,32 @@ const participants = [
   {
     title: "BANKA DHE INSTITUCIONE FINANCIARE QË OFROJNË KREDI BANESASH",
     image:
-      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594405/Rectangle_229_rw1d1y.png",
+      "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4UyhQMFK2aPtguMTXFN0Cfq39LYRVKDdji46A",
   },
   {
     title: "STUDIO ARKITEKTURORE DHE DIZAJNI",
     image:
-      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594406/Rectangle_211_nstz2b.png",
+      "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl47ejt6z1lPUTBe32inSw6AxMVk5rphfaRNtFg",
   },
   {
     title: "KOMPANI NDËRTIMORE DHE ZHVILLUESE",
     image:
-      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594406/Rectangle_211_1_uf3d4i.png",
+      "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4EAaUoRtbgaJFm3RPSMvBsCpGOH2fYKUwryi6",
   },
   {
     title: "AGJENCI TË PATUNDSHMËRIVE",
     image:
-      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594407/Rectangle_211_2_rgbovz.png",
+      "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4E3rjgegtbgaJFm3RPSMvBsCpGOH2fYKUwryi",
   },
   {
     title: "PRODHUES DHE DISTRIBUTORË TË MATERIALEVE NDËRTIMORE",
     image:
-      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594405/Rectangle_229_1_kxysdg.png",
+      "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4ovAmWQx82DPL6dKak7scW9nz4ONeSXJ5Yjbo",
   },
   {
     title: "FURNIZUES TË MOBILEVE, PAJISJEVE TË BRENDSHME DHE TEKNOLOGJISË",
     image:
-      "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594405/Rectangle_229_2_pcgoju.png",
+      "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4lt7h8iotzb2QuEXkvL1a6FS5DrV34s7wnJAq",
   },
 ];
 
@@ -114,3 +114,4 @@ const ParticipantsGrid = () => {
 };
 
 export default ParticipantsGrid;
+
