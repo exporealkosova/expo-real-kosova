@@ -124,7 +124,7 @@ const About = () => {
         <div
           className="rounded-[16px] w-full h-[300px] md:h-[169px] bg-cover bg-center flex items-center justify-center text-2xl md:text-4xl font-light"
           style={{
-            backgroundImage: "url('https://res.cloudinary.com/dwinvxbiw/image/upload/v1768590208/Frame_47_conbww.png')",
+            backgroundImage: "url('https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4RVqxUZMHB8EuZDCjo74LiQhradV0XbtWqceI')",
           }}
         >
           
@@ -135,3 +135,4 @@ const About = () => {
 };
 
 export default About;
+
