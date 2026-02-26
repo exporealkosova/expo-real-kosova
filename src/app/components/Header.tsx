@@ -61,9 +61,9 @@ const Header = () => {
     <header className="absolute top-5 md:top-0 z-50 w-full">
       <div className="flex justify-between items-center py-[10px] px-[66px] mx-auto lg:px-[38px] md:px-5">
         <Image
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768590878/Frame_5179_y8cymb.svg"
+          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl43QCKn0OwARXHcEK12zBNgQDe6l0CdWoUVuJ9"
           alt="Header Logo"
-          className="w-fit min-w-[130px] min-h-[80px] h-full md:min-w-[40px] md:w-[80px]"
+          className="w-fit min-w-[130px] min-h-[80px] h-full md:min-w-[40px] md:w-[80px] md:min-h-[20px] md:h-auto"
           width={1000}
           height={1000}
         />

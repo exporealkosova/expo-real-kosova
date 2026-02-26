@@ -228,7 +228,7 @@ const Kontakti = () => {
           <Image
             width={1000}
             height={1000}
-            src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594706/Rectangle_226_bqfrfv.png"
+            src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4OXigrjVoqG8zsNmB2tKkcdFxaW5AhpEfCTb1"
             alt="Building"
             className="w-full h-[805px] lg:h-[600px] object-cover rounded-[40px]"
           />

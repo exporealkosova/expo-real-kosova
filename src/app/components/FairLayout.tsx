@@ -9,8 +9,8 @@ export default function FairLayout() {
         </h1>
         <div className="hidden h-0 w-0 md:h-full md:w-full md:block">
           <Image
-            className="w-full h-[564px] lg:h-[333px] md:w-full md:h-full object-cover"
-            src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594695/Layer_1_ootv92.png"
+            className="w-full h-full lg:h-full md:w-full md:h-full object-cover"
+            src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4KYRth7vazPrWBCwmLHG6OqlRuXUDTcgjp4oA"
             alt="Fair Layout"
             width={1000}
             height={1000}
@@ -30,8 +30,8 @@ export default function FairLayout() {
       </div>
       <div className="w-1/2 md:w-0">
         <Image
-          className="w-full h-[564px] lg:h-[333px] object-cover md:hidden md:w-0 md:h-0"
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594695/Layer_1_ootv92.png"
+          className="w-full h-full lg:h-full object-cover md:hidden md:w-0 md:h-0"
+          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4KYRth7vazPrWBCwmLHG6OqlRuXUDTcgjp4oA"
           alt="Fair Layout"
           width={1000}
           height={1000}

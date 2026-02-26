@@ -58,20 +58,20 @@ const Shtandet = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-row justify-between relative gap-[46px]">
+      <div className="flex flex-row justify-between  gap-[46px] ">
         <Image
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594700/Rectangle_730_sazhca.png"
+          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4zemh2HItaZ4QBf9PbRWrVhwSED318gUY0G5p"
           alt="BTP-Holding"
           width={564}
           height={393}
-          className="top-0 left-0 max-w-[564px] h-fit"
+          className=" h-fit w-full"
         />
         <Image
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594696/Rectangle_729_eopah1.png"
+          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4Jwwl34cWneKG1UIo8f2isma0XLhxBYw9gQd7"
           alt="AS-Tech"
           width={564}
           height={393}
-          className="bottom-0 right-0 w-full "
+          className=" w-full h-full "
         />
       </div>
     </section>

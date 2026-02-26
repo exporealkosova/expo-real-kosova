@@ -11,51 +11,51 @@ const Expozuesit = () => {
   const items = [
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591931/Slide_Item_1_cqkuf1.png",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4e9CXjTiRVl4CiMhf9TodmIc0vU2exD8QYLGu",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591938/Slide_Image_pejnmw.png",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4SP5yqzlTOGuUCRf4vMndb1ALqJkpic8t2WPw",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591939/Slide_Item_3_kj3lmd.png",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4flVNCJ8akFcT0JmYvUGld5CPsR6jtgZrIoeQ",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591939/Slide_Image_1_eobpji.png",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4xTkIfVtECD3ZtdMqnYINzmw85OLb0AT7viP2",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768591932/Slide_Item_5_stmnhj.png",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4EJvVUitbgaJFm3RPSMvBsCpGOH2fYKUwryi6",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769371564/IMG_4376_c2k9p6.jpg",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4o6ceVcx82DPL6dKak7scW9nz4ONeSXJ5Yjbo",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468009/MRP_3377_1_mqcczm.png",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4ldEHRrotzb2QuEXkvL1a6FS5DrV34s7wnJAq",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468008/MRP_3615_1_shrtqk.jpg",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4MsenGwLsvqbx93hHg0KRz5MjV6PYkGaWnlO7",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468008/MRP_3720_1_bgesjq.jpg",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4Mu5l15Lsvqbx93hHg0KRz5MjV6PYkGaWnlO7",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769371682/MRP_4807_ccc8f3.jpg",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl40GSyxpCJU837GYF1PinbAreVdOkfv09ayWqL",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769371679/MRP_4938_k34qlw.jpg",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4iVvkSWdjx1gH4TrOARcPKt2VwqaU9b7Wom3Z",
     },
     {
       image:
-        "https://res.cloudinary.com/dwinvxbiw/image/upload/v1769468009/MRP_5185_1_cznxca.jpg",
+        "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4fm2BE298akFcT0JmYvUGld5CPsR6jtgZrIoe",
     },
   ];
   const [activeIndex, setActiveIndex] = useState(0);
@@ -129,10 +129,10 @@ const Expozuesit = () => {
           <div className="flex gap-14 items-center">
             <div
               ref={prevRef}
-              className="flex w-3 h-3 justify-center items-center rounded-full cursor-pointer"
+              className="flex w-4 h-4 justify-center items-center rounded-full cursor-pointer"
             >
               <Image
-                src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768593283/icon_kf1a5d.png"
+                src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4eaXbjwiRVl4CiMhf9TodmIc0vU2exD8QYLGu"
                 alt="Previous"
                 width={24}
                 height={24}
@@ -149,10 +149,10 @@ const Expozuesit = () => {
 
             <div
               ref={nextRef}
-              className="flex w-3 h-2 justify-center items-center rounded-full cursor-pointer"
+              className="flex w-4 h-4 justify-center items-center rounded-full cursor-pointer"
             >
               <Image
-                src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768593298/icon_1_ojtrfm.png"
+                src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl49hYok8jBK8C3vmHNnFUyGOLpsuJ4RDlhzkxf"
                 alt="Next"
                 width={24}
                 height={24}

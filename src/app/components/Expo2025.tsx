@@ -17,7 +17,7 @@ const Expo2025 = () => {
         </div>
 
         <Image
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768595527/Group_5175_qrwwfm.png"
+          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4cnmx8LBQXx79yrc3bZVGPlSa2Netg1K4kin0"
           alt="Expozuesit Logot"
           className="w-full h-full "
           width={1000}

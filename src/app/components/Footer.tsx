@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
@@ -83,13 +82,23 @@ const Footer = () => {
 
       {/* Background Icon Overlay */}
       <div className="absolute right-20 lg:-right-80 top-0 bottom-0 z-0 block">
-        <Image
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768595383/Frame_5170_akigcm.png" // Replace with your path
-          alt="Background Icon"
+        <svg
+          width="448"
+          height="473"
+          viewBox="0 0 448 473"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
           className="h-full aspect-square w-full"
-          width={1000}
-          height={1000}
-        />
+        >
+          <path
+            d="M114.457 357.582L0 236.495L223.555 0L447.1 236.495L332.773 357.443L225.148 242.512L114.457 357.582ZM25.6578 236.495L114.57 330.557L225.316 215.428L332.858 330.21L421.442 236.495L223.555 27.1441L25.6578 236.495Z"
+            fill="#4B4CD9"
+          />
+          <path
+            d="M222.241 473.001L133.16 378.71L224.855 281.703L313.945 375.944L222.241 473.001ZM158.846 378.71L222.278 445.817L288.325 375.944L224.893 308.837L158.846 378.71Z"
+            fill="#4B4CD9"
+          />
+        </svg>
       </div>
     </footer>
   );

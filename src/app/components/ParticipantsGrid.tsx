@@ -1,11 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
-import { EffectCards } from "swiper/modules";
 
 const participants = [
   {
@@ -47,7 +45,7 @@ const ParticipantsGrid = () => {
         Kush mund të marrë pjesë?
       </h2>
 
-      <div className=" md:hidden md:h-0 grid grid-cols-3 md:grid-cols-2 sm:grid-cols-3 gap-x-[15px]  gap-y-[10px] mx-auto lg:gap-[4px]">
+      <div className=" grid grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-x-[15px]  gap-y-[10px] mx-auto lg:gap-[4px]">
         {participants.map((item, index) => (
           <div
             key={index}
@@ -56,7 +54,7 @@ const ParticipantsGrid = () => {
             <Image
               src={item.image}
               alt={item.title}
-              className="w-full h-[285px] lg:h-[205px] object-cover transform group-hover:scale-105  transition-transform duration-300"
+              className="w-full h-[285px] lg:h-[205px] md:h-fit object-cover transform group-hover:scale-105  transition-transform duration-300"
               width={1000}
               height={1000}
             />
@@ -64,51 +62,17 @@ const ParticipantsGrid = () => {
               className="absolute inset-0 opacity-45"
               style={{
                 background:
-                  "linear-gradient(to top, rgba(0,54,45,1) 100%, rgba(0,54,45,0.44) 0%)",
+                  "linear-gradient(to top, rgba(85,86,255,1) 100%, rgba(85,86,255,0.44) 0%)",
               }}
             ></div>
             <div className="absolute inset-0  flex items-end p-4">
-              <p className="text-[#F4EDE2] text-[18px] lg:text-[16px] font-medium font-['SupermolotThin']">
+              <p className="text-[#F4EDE2] text-[18px] lg:text-[16px] md:text-[8px] font-medium font-['SupermolotThin']">
                 {item.title}
               </p>
             </div>
           </div>
         ))}
       </div>
-
-      <Swiper
-        effect={"cards"}
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="hidden h-0 md:flex w-full md:h-[271px]  mx-auto relative"
-      >
-        {participants.map((item, index) => (
-          <SwiperSlide
-            key={index}
-            className=" rounded-[10px] overflow-hidden shadow-md group relative"
-          >
-            <Image
-              src={item.image}
-              alt={item.title}
-              className="w-full h-[285px] lg:h-[271] object-cover transform group-hover:scale-105 transition-transform duration-300"
-              width={1000}
-              height={1000}
-            />
-            <div
-              className="absolute inset-0 opacity-45"
-              style={{
-                background:
-                  "linear-gradient(to top, rgba(0,54,45,1) 100%, rgba(0,54,45,0.44) 0%)",
-              }}
-            ></div>
-            <div className="absolute inset-0 bg-black/40 flex items-end p-4">
-              <p className="text-[#F4EDE2] text-[18px] lg:text-[16px] font-medium font-['SupermolotThin']">
-                {item.title}
-              </p>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
     </section>
   );
 };

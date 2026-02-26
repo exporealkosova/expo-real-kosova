@@ -4,19 +4,19 @@ import React from "react";
 const reasons = [
   {
     text: "Lidhje direkte me mijëra klientë dhe investitorë potencialë",
-    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594698/image_nabzuy.png",
+    image: "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4McA4UzLsvqbx93hHg0KRz5MjV6PYkGaWnlO7",
   },
   {
     text: "Shtrirje mediatike në të gjithë Kosovën dhe diasporën",
-    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594702/Rectangle_193_sw3fc4.png",
+    image: "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4UPZZEHK2aPtguMTXFN0Cfq39LYRVKDdji46A",
   },
   {
     text: "Platformë për të promovuar produktet, projektet dhe teknologjitë më të fundit",
-    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594702/Rectangle_194_peswxs.png",
+    image: "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4tK3h0rTeS6U7H3mrLy2Gsv1VPQlRZAzjdMwO",
   },
   {
     text: "Rrjetëzim me profesionistë të industrisë dhe institucione financiare",
-    image: "https://res.cloudinary.com/dwinvxbiw/image/upload/v1768594700/Rectangle_195_zbzhen.png",
+    image: "https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4h2poAnXWIJpx8qPgF0dyes1tCUn75cwuQrBS",
   },
 ];
 

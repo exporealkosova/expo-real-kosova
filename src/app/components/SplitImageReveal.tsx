@@ -75,7 +75,7 @@ export default function SplitImageReveal() {
         <Image
           ref={leftRef}
           className="w-1/2 h-[639px] md:w-0 md:h-0"
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768595872/Frame_58_bbytyf.png"
+          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4R2T34vMHB8EuZDCjo74LiQhradV0XbtWqceI"
           width={1000}
           height={1000}
           alt=""
@@ -83,7 +83,7 @@ export default function SplitImageReveal() {
         <Image
           ref={rightRef}
           className="w-1/2 h-[639px] md:w-0 md:h-0 md:hidden"
-          src="https://res.cloudinary.com/dwinvxbiw/image/upload/v1768595876/Frame_59_dndwpg.png"
+          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4TsyWrt3GR1YprlVmgtsocZP4N69eAnXzD30I"
           width={1000}
           height={1000}
           alt=""
