@@ -23,7 +23,7 @@ const reasons = [
 const WhyParticipate = () => {
   return (
     <section className="bg-[#F4EDE2] md:bg-[#F4EDE2] py-32 px-[50px] lg:px-4 md:px-5  text-[#221F1F] md:text-[#221F1F] md:sticky md:top-0 md:!pt-0 ">
-      <h2 className="text-[44px] lg:text-[35px] md:text-[20px] font-semibold font-['Hoves'] text-center mb-12 md:sticky md:top-6">
+      <h2 className="text-[44px] lg:text-[35px] md:text-[20px] font-semibold font-['Inter'] text-center mb-12 md:sticky md:top-6">
         Pse të merrni pjesë në <br className="md:hidden" /> EXPO REAL KOSOVA?
       </h2>
 
@@ -45,7 +45,7 @@ const WhyParticipate = () => {
                 height={1000}
               />
             </div>
-            <p className="text-[20px] lg:text-[16px] text-left font-['Hoves'] font-normal text-[#221F1F]">
+            <p className="text-[20px] lg:text-[16px] text-left font-['Inter'] font-normal text-[#221F1F]">
               {reason.text}
             </p>
           </div>

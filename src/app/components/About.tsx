@@ -38,13 +38,13 @@ const About = () => {
   return (
     <section className="bg-[#F4EDE2] py-20 md:px-[20px]">
       <div className="mx-auto text-left md:text-left px-[12%] md:px-0">
-        <h2 className="text-[54px] lg:text-[40px] md:text-[25px] font-['Hoves'] font-semibold text-[#221F1F] mb-6 text-center">
+        <h2 className="text-[54px] lg:text-[40px] md:text-[25px] font-['Inter'] font-semibold text-[#221F1F] mb-6 text-center">
           Rreth Panairit
         </h2>
 
-        <p className="text-[20px] lg:text-[16px] font-semibold text-[#221F1F] mb-4 font-['SupermolotThin']">
+        <p className="text-[20px] lg:text-[16px] font-semibold text-[#221F1F] mb-4 font-['Inter']">
           EXPO REAL Kosova
-          <span className="font-normal text-[#221F1F] font-['Hoves']">
+          <span className="font-normal text-[#221F1F] font-['Inter']">
             {" "}
             është panairi më i madh dhe më gjithëpërfshirës në Kosovë për
             ndërtim, patundshmëri, materiale ndërtimore dhe industri
@@ -65,7 +65,7 @@ const About = () => {
               opacity: 0,
             }}
           >
-            <p className="text-[20px] lg:text-[16px] font-normal text-[#221F1F] font-['Hoves']">
+            <p className="text-[20px] lg:text-[16px] font-normal text-[#221F1F] font-['Inter']">
               Me moton{" "}
               <span className="font-semibold text-[#221F1F]">
                 &quot;Investo, ndërto, mobilo!&quot;
@@ -76,7 +76,7 @@ const About = () => {
               pajisjeve për shtëpi, si dhe institucionet financiare që
               mbështesin investimet në banim dhe ndërtim.
             </p>
-            <p className="text-[20px] lg:text-[16px] text-[#221F1F] font-['Hoves']">
+            <p className="text-[20px] lg:text-[16px] text-[#221F1F] font-['Inter']">
               Synimi ynë është të krijojmë një urë lidhëse midis tregut dhe
               inovacionit – ku ekspozuesit prezantojnë zgjidhjet më të fundit
               dhe vizitorët gjejnë mundësi konkrete për investim, bashkëpunim
@@ -87,7 +87,7 @@ const About = () => {
           </div>
         ) : (
           <div>
-            <p className="text-[20px] lg:text-[16px] font-normal text-[#221F1F] font-['Hoves']">
+            <p className="text-[20px] lg:text-[16px] font-normal text-[#221F1F] font-['Inter']">
               Me moton{" "}
               <span className="font-semibold text-[#221F1F]">
                 &quot;Investo, ndërto, mobilo!&quot;
@@ -98,7 +98,7 @@ const About = () => {
               pajisjeve për shtëpi, si dhe institucionet financiare që
               mbështesin investimet në banim dhe ndërtim.
             </p>
-            <p className="text-[20px] lg:text-[16px] text-[#221F1F] font-['Hoves']">
+            <p className="text-[20px] lg:text-[16px] text-[#221F1F] font-['Inter']">
               Synimi ynë është të krijojmë një urë lidhëse midis tregut dhe
               inovacionit – ku ekspozuesit prezantojnë zgjidhjet më të fundit
               dhe vizitorët gjejnë mundësi konkrete për investim, bashkëpunim
@@ -113,7 +113,7 @@ const About = () => {
         {isMobile && (
           <button
             onClick={() => setShowFull((prev) => !prev)}
-            className="mt-4 text-[#5556ff] text-[14px] font-light underline text-center w-full font-['Hoves']"
+            className="mt-4 text-[#5556ff] text-[14px] font-light underline text-center w-full font-['Inter']"
           >
             {showFull ? "Lexo më pak" : "Lexo më shumë"}
           </button>

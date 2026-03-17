@@ -63,7 +63,7 @@ export default function Home() {
           <a
             href="https://maps.app.goo.gl/AsU5p9vbkyYioEyTA"
             target="_blank"
-            className="rounded-[10px] bg-[#5556ff] px-[55px] py-[18px] md:py-3  md:px-[65px] text-[16px]  font-normal font-['Hoves'] text-[#F4EDE2] hover:bg-[#12423a] transition-all duration-500"
+            className="rounded-[10px] bg-[#5556ff] px-[55px] py-[18px] md:py-3  md:px-[65px] text-[16px]  font-normal font-['Inter'] text-[#F4EDE2] hover:bg-[#12423a] transition-all duration-500"
           >
             Merr Udhëzimet
           </a>

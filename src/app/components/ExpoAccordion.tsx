@@ -53,7 +53,7 @@ const ExpoAccordion: React.FC = () => {
 
   return (
     <section className="bg-[#F4EDE2] py-16 px-[127px] lg:px-[116px] md:px-5 md:py-4  flex flex-col gap-[77px]">
-      <h2 className="text-center text-[54px] lg:text-[40px] md:text-[25px] font-semibold font-['Hoves'] text-[#221F1F]">
+      <h2 className="text-center text-[54px] lg:text-[40px] md:text-[25px] font-semibold font-['Inter'] text-[#221F1F]">
         Expo programi
       </h2>
 
@@ -62,12 +62,12 @@ const ExpoAccordion: React.FC = () => {
           <div key={index}>
             <button
               onClick={() => toggleAccordion(index)}
-              className="w-full flex justify-between font-['Hoves'] items-center py-4 md:py-1"
+              className="w-full flex justify-between font-['Inter'] items-center py-4 md:py-1"
             >
-              <span className="text-[34px] lg:text-[26px] md:text-[18px] font-['Hoves'] font-light w-1/2 text-left lg:text-left  p-2.5">
+              <span className="text-[34px] lg:text-[26px] md:text-[18px] font-['Inter'] font-light w-1/2 text-left lg:text-left  p-2.5">
                 {item.time}
               </span>
-              <span className="text-[34px] lg:text-[26px] md:text-[18px] font-['Hoves'] font-semibold w-1/2 text-left lg:text-right lg:pr-2.5">
+              <span className="text-[34px] lg:text-[26px] md:text-[18px] font-['Inter'] font-semibold w-1/2 text-left lg:text-right lg:pr-2.5">
                 {item.title}
               </span>
             </button>

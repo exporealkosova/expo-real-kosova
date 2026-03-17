@@ -68,7 +68,7 @@ const Expozuesit = () => {
     <section className="bg-[#F4EDE2] py-12 px-6 lg:px-4 md:px-5 ">
       <div className="px-[50px] lg:px-0 flex flex-col gap-[20px] md:gap-20 items-center">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-[54px] md:text-[25px] font-['Hoves'] font-semibold lg:pl-5 md:pl-0">
+          <h2 className="text-[54px] md:text-[25px] font-['Inter'] font-semibold lg:pl-5 md:pl-0">
             EXPO REAL KOSOVA 2025
           </h2>
         </div>

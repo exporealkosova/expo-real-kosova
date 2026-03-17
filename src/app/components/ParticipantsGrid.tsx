@@ -41,7 +41,7 @@ const participants = [
 const ParticipantsGrid = () => {
   return (
     <section className=" py-16 px-[50px] lg:px-4 md:px-5">
-      <h2 className="text-[54px] lg:text-[40px] md:text-[24px] font-['Hoves'] font-semibold text-center text-gray-900 mb-12">
+      <h2 className="text-[54px] lg:text-[40px] md:text-[24px] font-['Inter'] font-semibold text-center text-gray-900 mb-12">
         Kush mund të marrë pjesë?
       </h2>
 
@@ -66,7 +66,7 @@ const ParticipantsGrid = () => {
               }}
             ></div>
             <div className="absolute inset-0  flex items-end p-4">
-              <p className="text-[#F4EDE2] text-[18px] lg:text-[16px] md:text-[8px] font-medium font-['SupermolotThin']">
+              <p className="text-[#F4EDE2] text-[18px] lg:text-[16px] md:text-[8px] font-medium font-['Inter']">
                 {item.title}
               </p>
             </div>

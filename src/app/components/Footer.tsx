@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         {/* Navigation Links */}
-        <ul className="space-y-[25px] text-[16px] font-['SupermolotThin']">
+        <ul className="space-y-[25px] text-[16px] font-['Inter']">
           <li>
             <Link
               to="about"

@@ -26,12 +26,12 @@ const ComingSoon = () => {
             width={1920}
             height={1080}
           />
-          <div className="text-center text-[80px] text-[#F4EDE2] font-['SupermolotBold'] font-bold md:text-[64px]">
+          <div className="text-center text-[80px] text-[#F4EDE2] font-['Inter'] font-bold md:text-[64px]">
             COMING SOON!
           </div>
           <div
             onClick={() => setHidden(true)}
-            className="text-center text-[24px] text-[#F4EDE2] font-['SupermolotThin'] md:text-[20px] cursor-pointer transition-opacity duration-300"
+            className="text-center text-[24px] text-[#F4EDE2] font-['Inter'] md:text-[20px] cursor-pointer transition-opacity duration-300"
           >
             Prishtina Mall | <span className="underline">25-27 Korrik</span>
           </div>

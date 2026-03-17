@@ -96,13 +96,13 @@ export default function SplitImageReveal() {
         className="w-[85%] flex items-center justify-center px-12 md:px-0 text-left md:w-full"
       >
         <div className=" bg-[#F4EDE2] p-8 md:px-4">
-          <h2 className="text-[54px] lg:text-[35px] md:text-[25px] font-semibold font-['Hoves'] mb-4 text-center ">
+          <h2 className="text-[54px] lg:text-[35px] md:text-[25px] font-semibold font-['Inter'] mb-4 text-center ">
             Pse Prishtina Mall?
           </h2>
-          <p className="text-[24px] lg:text-[20px] md:text-[14px] font-['Hoves'] text-[#221F1F] mb-6">
+          <p className="text-[24px] lg:text-[20px] md:text-[14px] font-['Inter'] text-[#221F1F] mb-6">
             Expo Real Kosova 2026 do te mbahet me 24 -25 26 Korrik 2026 në
             një nga vendet më të mëdha dhe moderne në vend - në Prishtina Mall,
-            me një salle qe ka sipërfaqe prej 2800 m².
+            me një salle qe ka sipërfaqe prej 3500 m².
             <br />
             <br />
             Ky lokacion është jashtëzakonisht i përshtatshëm për organizimin e
@@ -114,7 +114,7 @@ export default function SplitImageReveal() {
             një mundësi të jashtëzakonshme për promovim, shitje dhe rrjetëzim
             për të gjithë ekspozuesit.
           </p>
-          <ul className="text-left list-disc pl-6 space-y-2 text-[20px]  md:text-[14px] font-['Hoves'] text-[#221F1F]">
+          <ul className="text-left list-disc pl-6 space-y-2 text-[20px]  md:text-[14px] font-['Inter'] text-[#221F1F]">
             <li>
               Ndodhet brenda qendrës më të madhe tregtare në Kosovë, duke ofruar
               një eksperiencë të kombinuar ekspozimi dhe argëtimi

@@ -83,7 +83,7 @@ const Kontakti = () => {
           <div className="text-[54px] md:text-[25px] lg:text-[40px] font-semibold mb-[22px] text-[#221F1F] leading-nonw">
             Rezervo shtandin tënd
           </div>
-          <p className="text-[16px] font-['Hoves'] mb-[73px] md:mb-10 text-[#221F1F]">
+          <p className="text-[16px] font-['Inter'] mb-[73px] md:mb-10 text-[#221F1F]">
             Na kontakto duke plotësuar formularin
           </p>
 
@@ -96,7 +96,7 @@ const Kontakti = () => {
                   name="emri"
                   value={form.emri}
                   onChange={handleChange}
-                  className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Hoves'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
+                  className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Inter'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
                   autoComplete="off"
                 />
                 {errors.emri && (
@@ -110,7 +110,7 @@ const Kontakti = () => {
                   name="mbiemri"
                   value={form.mbiemri}
                   onChange={handleChange}
-                  className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Hoves'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
+                  className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Inter'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
                   autoComplete="off"
                 />
                 {errors.mbiemri && (
@@ -127,7 +127,7 @@ const Kontakti = () => {
                 name="biznesi"
                 value={form.biznesi}
                 onChange={handleChange}
-                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Hoves'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
+                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Inter'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
                 autoComplete="off"
               />
               {errors.biznesi && (
@@ -143,7 +143,7 @@ const Kontakti = () => {
                 name="telefoni"
                 value={form.telefoni}
                 onChange={handleChange}
-                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Hoves'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
+                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Inter'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
                 autoComplete="off"
               />
               {errors.telefoni && (
@@ -160,7 +160,7 @@ const Kontakti = () => {
                 type="email"
                 value={form.email}
                 onChange={handleChange}
-                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Hoves'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
+                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Inter'] py-2 placeholder:text-[#221F1F] text-[#221f1f] "
                 autoComplete="off"
               />
               {errors.email && (
@@ -175,7 +175,7 @@ const Kontakti = () => {
                 name="mesazhi"
                 value={form.mesazhi}
                 onChange={handleChange}
-                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Hoves'] py-2 placeholder:text-[#221F1F] text-[#221f1f]  resize-none"
+                className="w-full border-b border-[#221F1F] bg-transparent outline-none font-['Inter'] py-2 placeholder:text-[#221F1F] text-[#221f1f]  resize-none"
               />
               {errors.mesazhi && (
                 <div className="text-red-500 text-xs mt-1">
@@ -195,7 +195,7 @@ const Kontakti = () => {
               </div>
             )}
           </form>
-          <div className="flex flex-col gap-5 items-center mt-5 justify-center font-['Hoves'] text-[18px]">
+          <div className="flex flex-col gap-5 items-center mt-5 justify-center font-['Inter'] text-[18px]">
             <p className=" font-thin ">ose duke na kontaktuar në:</p>
             <div className="flex items-center justify-center flex-col">
               <div className="flex   flex-row gap-2 md:flex-col md:justify-center md:items-center">

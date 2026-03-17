@@ -22,7 +22,7 @@ const mediaItems = [
 const MediaSection = () => {
   return (
     <section className=" py-16 px-[50px]">
-      <h2 className="text-[54px] text-center font-semibold font-['Hoves'] mb-12">
+      <h2 className="text-[54px] text-center font-semibold font-['Inter'] mb-12">
         Media
       </h2>
 
@@ -47,7 +47,7 @@ const MediaSection = () => {
                 width={1000}
                 height={1000}
               />
-              <p className="text-[20px] text-left font-semibold font-['Hoves'] text-[#221F1F] leading-none">{item.title}</p>
+              <p className="text-[20px] text-left font-semibold font-['Inter'] text-[#221F1F] leading-none">{item.title}</p>
             </div>
           </div>
         ))}

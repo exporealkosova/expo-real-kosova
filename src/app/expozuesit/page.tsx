@@ -62,7 +62,7 @@ export default function Expozuesit() {
     <div className="bg-[#F4EDE2] z-[2] overflow-hidden">
       <HeaderGreen />
       <div className="flex flex-col items-center justify-center gap-20 px-[120px] lg:px-0 py-[123px] md:py-[70px] ">
-        <h2 className="text-[54px] md:text-[25px] font-['Hoves'] font-semibold lg:pl-5 md:pl-0">
+        <h2 className="text-[54px] md:text-[25px] font-['Inter'] font-semibold lg:pl-5 md:pl-0">
           Expozuesit
         </h2>
         <div className="flex flex-row gap-32 flex-wrap justify-center">

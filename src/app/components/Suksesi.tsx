@@ -26,11 +26,11 @@ const Suksesie = () => {
   return (
     <section className="bg-[#F4EDE2] md:bg-[#F4EDE2] py-32 px-[50px] lg:px-4 md:px-5  text-[#221F1F] md:text-[#221F1F] md:sticky md:top-0 md:!pt-0 ">
       <div className="flex flex-col gap-12 mb-[55px]">
-        <h2 className="text-[44px] lg:text-[35px] md:text-[20px] font-semibold font-['Hoves'] text-center  md:sticky md:top-6">
+        <h2 className="text-[44px] lg:text-[35px] md:text-[20px] font-semibold font-['Inter'] text-center  md:sticky md:top-6">
           Suksesi i Expo Real 2025
         </h2>
 
-        <p className="text-center text-[28px] font-['Hoves'] font-normal lg:text-[20px] md:text-[16px] md:mx-0">
+        <p className="text-center text-[28px] font-['Inter'] font-normal lg:text-[20px] md:text-[16px] md:mx-0">
           Edicioni i vitit të kaluar dëshmoi fuqinë dhe rëndësinë e këtij
           <br className="md:hidden" /> panairi si ngjarja më e madhe në Kosovë
           për ndërtim dhe patundshmëri.
@@ -55,9 +55,9 @@ const Card = ({
   description: string;
 }) => {
   return (
-    <div className="bg-[#5556ff] rounded-[22px] shadow-md p-4 font-['Hoves'] flex flex-col justify-between items-start h-[266px] md:h-auto md:w-full md:py-4 md:px-5 gap-4">
-      <span className="text-[72px] text-white font-['Hoves'] leading-none font-thin">{title}</span>
-      <p className=" text-white font-['Hoves']">{description}</p>
+    <div className="bg-[#5556ff] rounded-[22px] shadow-md p-4 font-['Inter'] flex flex-col justify-between items-start h-[266px] md:h-auto md:w-full md:py-4 md:px-5 gap-4">
+      <span className="text-[72px] text-white font-['Inter'] leading-none font-thin">{title}</span>
+      <p className=" text-white font-['Inter']">{description}</p>
     </div>
   );
 };

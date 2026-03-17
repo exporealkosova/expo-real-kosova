@@ -37,7 +37,7 @@ const Shtandet = () => {
 
             {/* Text */}
             <div className="w-1/2 md:!w-full max-w-[438px] md:max-w-none md:flex md:flex-col md:gap-5 md:items-center ">
-              <h3 className="text-[54px] lg:text-[35px]  font-semibold font-['Hoves'] text-[#221F1F] mb-4 leading-tight md:text-center">
+              <h3 className="text-[54px] lg:text-[35px]  font-semibold font-['Inter'] text-[#221F1F] mb-4 leading-tight md:text-center">
                 {stand.title}
               </h3>
               <div className="flex-shrink-0 w-0 md:w-full md:h-full md:block">
@@ -49,7 +49,7 @@ const Shtandet = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <ul className="text-[20px] lg:text-[16px] font-['Hoves'] text-[#221F1F] list-disc pl-6 space-y-1">
+              <ul className="text-[20px] lg:text-[16px] font-['Inter'] text-[#221F1F] list-disc pl-6 space-y-1">
                 {stand.description.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}
