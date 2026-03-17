@@ -80,7 +80,7 @@ const About = () => {
               Synimi ynë është të krijojmë një urë lidhëse midis tregut dhe
               inovacionit – ku ekspozuesit prezantojnë zgjidhjet më të fundit
               dhe vizitorët gjejnë mundësi konkrete për investim, bashkëpunim
-              apo blerje. Me një hapësirë prej 2,400 m², struktura moderne e
+              apo blerje. Me një hapësirë prej 3500 m², struktura moderne e
               panairit dhe programi i pasur promovues garantojnë një përvojë
               cilësore dhe me ndikim.
             </p>
@@ -102,7 +102,7 @@ const About = () => {
               Synimi ynë është të krijojmë një urë lidhëse midis tregut dhe
               inovacionit – ku ekspozuesit prezantojnë zgjidhjet më të fundit
               dhe vizitorët gjejnë mundësi konkrete për investim, bashkëpunim
-              apo blerje. Me një hapësirë prej 2,400 m², struktura moderne e
+              apo blerje. Me një hapësirë prej 3500 m², struktura moderne e
               panairit dhe programi i pasur promovues garantojnë një përvojë
               cilësore dhe me ndikim.
             </p>
