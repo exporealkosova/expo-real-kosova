@@ -21,7 +21,7 @@ const Link: React.FC<LinkProps> = ({ to, text, className, onClick }) => (
     to={to}
     smooth={true}
     duration={500}
-    className={`cursor-pointer text-white text-[16px] lg:text-[14px] font-["Hoves"] md:text-[40px] font-normal hover:underline transition-all duration-300 ${
+    className={`cursor-pointer text-white text-[16px] lg:text-[14px] font-["Inter"] md:text-[40px] font-normal hover:underline transition-all duration-300 ${
       className || ""
     }`}
     onClick={onClick}
@@ -93,7 +93,7 @@ const Header = () => {
             smooth={true}
             duration={500}
             offset={-100}
-            className={`w-fit rounded-[10px] leading-none bg-[#5556ff] font-["Hoves"] text-[#F4EDE2] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
+            className={`w-fit rounded-[10px] leading-none bg-[#5556ff] font-["Inter"] text-[#F4EDE2] px-[55px] py-[18px] lg:px-5 lg:py-3 md:px-2 transition-all duration-300 text-[16px] md:text-[40px] md:rounded-[10px] md:py-[10px]  cursor-pointer`}
           >
             Rezervo shtandin
           </ScrollLink>
