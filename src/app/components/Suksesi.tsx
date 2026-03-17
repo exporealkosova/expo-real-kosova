@@ -16,7 +16,7 @@ const reasons = [
     image: "/assets/images/psemerrpjese/3.png",
   },
   {
-    title: "2800m²",
+    title: "3500m²",
     text: "Hapësirë me atmosferë profesionale dhe dinamike, e cila e beri këtë event një platformë të shkëlqyer për rrjetëzimin dhe krijimin e partneriteteve të reja",
     image: "/assets/images/psemerrpjese/4.png",
   },
