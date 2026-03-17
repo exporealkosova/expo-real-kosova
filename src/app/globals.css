@@ -10,8 +10,8 @@
   display: none;
 }
 @font-face {
-  font-family: "Hoves";
-  src: url("../../public/assets/fonts/TTHoves-Regular.ttf") format("truetype");
+  font-family: "Inter";
+  src: url("../../public/assets/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "SupermolotBold";
