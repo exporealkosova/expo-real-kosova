@@ -124,10 +124,12 @@ const About = () => {
         <div
           className="rounded-[16px] w-full h-[300px] md:h-[169px] bg-cover bg-center flex items-center justify-center text-2xl md:text-4xl font-light"
           style={{
-            backgroundImage: "url('https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4RVqxUZMHB8EuZDCjo74LiQhradV0XbtWqceI')",
+            backgroundImage: "url('https://c8fo83w525.ufs.sh/f/clwFgu00CAMureSMMWscIk1QuC0LbKV3MPDZOe6j5yEApSJm')",
           }}
         >
-          
+          <span className="text-center text-white font-['Inter'] text-[44px] md:font-[35px] md:text-[20px]">
+            Future Living &amp; Smart Investments
+          </span>
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ const Expo2025 = () => {
       <div className="px-[50px]  lg:px-0  flex flex-col gap-[206px] md:gap-20 items-center">
         <div className="flex flex-col items-center justify-between mb-4  ">
           <div className="text-center text-[64px] md:text-[30px] text-[#221F1F] font-['Inter'] font-bold">
-            EXPO REAL KOSOVA 2025
+            EXPO REAL KOSOVA 2026
           </div>
           <h2 className="text-[54px] md:text-[25px] font-['Inter']  lg:pl-5 md:pl-0">
             Expozuesit
@@ -17,7 +17,7 @@ const Expo2025 = () => {
         </div>
 
         <Image
-          src="https://a6wxlnk8hx.ufs.sh/f/esmUdOliRVl4cnmx8LBQXx79yrc3bZVGPlSa2Netg1K4kin0"
+          src="https://c8fo83w525.ufs.sh/f/clwFgu00CAMuzLCUsq8Ph7bXo8RYdD0AOySs64ug5NKletVC"
           alt="Expozuesit Logot"
           className="w-full h-full "
           width={1000}

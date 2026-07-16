@@ -2,12 +2,12 @@ import React from "react";
 
 const reasons = [
   {
-    title: "40",
-    text: "Kompani prezantuan produktet, shërbimet dhe projektet e tyre inovative",
+    title: "60+",
+    text: "Ekspozues do te prezantojne produktet",
   },
   {
-    title: "8 000",
-    text: "Rreth 8,000 vizitorë morrën pjesë, duke përfshirë profesionistë të industrisë, investitorë dhe qytetarë të interesuar",
+    title: "20 000",
+    text: "Rreth 20,000 vizitorë pritet të marrin pjesë, duke përfshirë profesionistë të industrisë, investitorë dhe qytetarë të interesuar.",
     image: "/assets/images/psemerrpjese/2.png",
   },
   {
@@ -27,7 +27,7 @@ const Suksesie = () => {
     <section className="bg-[#F4EDE2] md:bg-[#F4EDE2] py-32 px-[50px] lg:px-4 md:px-5  text-[#221F1F] md:text-[#221F1F] md:sticky md:top-0 md:!pt-0 ">
       <div className="flex flex-col gap-12 mb-[55px]">
         <h2 className="text-[44px] lg:text-[35px] md:text-[20px] font-semibold font-['Inter'] text-center  md:sticky md:top-6">
-          Suksesi i Expo Real 2025
+          Suksesi i Expo Real 2026
         </h2>
 
         <p className="text-center text-[28px] font-['Inter'] font-normal lg:text-[20px] md:text-[16px] md:mx-0">

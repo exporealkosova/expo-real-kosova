@@ -42,7 +42,7 @@ const ParticipantsGrid = () => {
   return (
     <section className=" py-16 px-[50px] lg:px-4 md:px-5">
       <h2 className="text-[54px] lg:text-[40px] md:text-[24px] font-['Inter'] font-semibold text-center text-gray-900 mb-12">
-        Kush mund të marrë pjesë?
+        Kush është pjesë e panairit
       </h2>
 
       <div className=" grid grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-x-[15px]  gap-y-[10px] mx-auto lg:gap-[4px]">
